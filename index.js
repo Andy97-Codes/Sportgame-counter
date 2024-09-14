@@ -21,6 +21,11 @@ function point3Home() {
     homeC.textContent = countHome
 }
 
+function resetHome() {
+    countHome = 0
+    homeC.textContent = countHome
+}
+
 
 function point1Guest() {
     countGuest = countGuest + 1
@@ -36,5 +41,10 @@ function point2Guest() {
 
 function point3Guest() {
     countGuest = countGuest + 3
+    guestC.textContent = countGuest
+}
+
+function resetGuest() {
+    countGuest = 0
     guestC.textContent = countGuest
 }
